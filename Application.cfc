@@ -10,6 +10,8 @@ component {
 	this.sessionManagement = true;
 	this.sessionTimeout    = createTimespan( 0, 0, 30, 0 );
 	this.setClientCookies  = true;
+	this.datasource		   = "heroku_2e56469d69abdb8";
+	this.defaultdatasource = "heroku_2e56469d69abdb8";
 
 	// Java Integration
 	this.javaSettings = {
