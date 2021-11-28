@@ -25,10 +25,12 @@
     },
     "installPaths":{
         "coldbox":"coldbox/",
-        "testbox":"testbox/"
+        "testbox":"testbox/",
+        "cfmigrations":"modules/cfmigrations/"
     },
     "dependencies":{
-        "coldbox":"^6.0.0"
+        "coldbox":"^6.0.0",
+        "cfmigrations":"^3.0.4"
     },
     "scripts":{},
     "testbox":{
