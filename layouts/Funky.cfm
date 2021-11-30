@@ -10,7 +10,6 @@
     <link href="https://fonts.googleapis.com/css?family=Manjari&display=swap" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="Fisica.css">
 </head>
 
 <body>
@@ -30,16 +29,52 @@
                 <p>Este proceso suele realizarse con el uso de los "factores de conversion" o las tablas de conversion de unidades.</p>
                 <p>Frecuentemente basta multiplicar por una fraccion (factor de una conversion) y el resultado es otra medida equivalente, en la que han cambiado las unidades. Cuando el cambio de unidades implica la transformacion de varias unidades, se pueden utilizar varios factores de conversion uno tras otro, de forma que el resultado final sera la medida equivalente en las unidades que buscamos</p>
             </article>
-            <article class="article">
-                <h1>Title</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est corrupti repudiandae quo amet magnam
-                    mollitia necessitatibus incidunt veritatis officia veniam aperiam, sunt cumque sequi? Perferendis
-                    doloremque quaerat eos quas dolores.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ipsum? Minus unde quia officiis ipsum
-                    laboriosam dolorem. Similique, recusandae dicta.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, ipsum? Minus unde quia officiis ipsum
-                    laboriosam dolorem. Similique, recusandae dicta.</p>
-            </article>
+            <br>
+         
+            <table class="u-table-entity u-table-entity-1">
+                <colgroup>
+                  <col width="25%">
+                  <col width="25%">
+                  <col width="25%">
+                  <col width="25%">
+                </colgroup>
+                <thead class="u-palette-4-base u-table-header u-table-header-1">
+                  <tr style="height: 21px;">
+                    <th class="u-border-1 u-border-palette-4-base u-table-cell">Valor<br>
+                    </th>
+                    <th class="u-border-1 u-border-palette-4-base u-table-cell">De</th>
+                    <th class="u-border-1 u-border-palette-4-base u-table-cell">A</th>
+                    <th class="u-border-1 u-border-palette-4-base u-table-cell">Resultado</th>
+                  </tr>
+                </thead>
+                <tbody class="u-table-body">
+                  <tr style="height: 93px;">
+                    <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-5">
+                        <input type="number" name="change" id="pennies" min="0" step="10">
+                    </td>
+                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                        <select name="from_lenght">
+                            <option>metros</option>                            
+                            <option>kilometros</option>                            
+                            <option>centimetros</option>
+                            </select>   
+                    </td>
+                    <td class="u-border-1 u-border-grey-30 u-table-cell">
+                        <select name="from_lenght">
+                            <option>metros</option>                            
+                            <option>kilometros</option>                            
+                            <option>centimetros</option>
+                        </select>  
+                    </td>
+                    <td class="u-border-1 u-border-grey-30 u-table-cell"><p>R: <output id="potencia" for="base exponente"></output></p></td>
+                  </tr>
+                  <tr>
+                      <td>
+                        <p><input type="button" value="Calcular" onclick="mostrarPotencia()"></p>
+                      </td>
+                  </tr>
+                </tbody>
+              </table>
         </main>
         <aside class="sidebar">
             <div>
