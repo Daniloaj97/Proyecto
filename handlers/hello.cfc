@@ -38,7 +38,12 @@ component{
 		// set a private variable
 		prc.when = dateFormat( now(), "full" );
 		event.setView( view="hello/index");
-		event.setLayout("funky");
+		event.setLayout("Funky");
+	}
+	function requestapi(event, rc, prc){
+		event.getVariable(trip-start);
+		event.setVariable("url", "https://showcase.api.linx.twenty57.net/UnixTime/tounix?date=2019/02/11 13:38:00");
+		event
 	}
 
 
