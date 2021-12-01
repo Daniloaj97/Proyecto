@@ -25,9 +25,13 @@
         <main class="content">
             <article class="article">
                 <h1>Por que es importante?</h1>
-                <p>La conversion de unidades es la transformacion del valor numerico de una magnitud fisica, expresado en una cierta unidad de medida, en otro valor numerico equivalente y expresado en otra unidad de medida de la misma naturaleza.</p>
-                <p>Este proceso suele realizarse con el uso de los "factores de conversion" o las tablas de conversion de unidades.</p>
-                <p>Frecuentemente basta multiplicar por una fraccion (factor de una conversion) y el resultado es otra medida equivalente, en la que han cambiado las unidades. Cuando el cambio de unidades implica la transformacion de varias unidades, se pueden utilizar varios factores de conversion uno tras otro, de forma que el resultado final sera la medida equivalente en las unidades que buscamos</p>
+                <p>
+                    Tiempo Unix o Tiempo POSIX es un sistema para la descripcion de instantes de tiempo: se define como la cantidad de segundos transcurridos desde la medianoche UTC del 1 de enero de 1970, sin contar segundos intercalares. Es universalmente usado no solo en sistemas operativos tipo-Unix, sino tambien en muchos otros sistemas computacionales. No se trata ni de una representacion lineal del tiempo, ni de una representacion verdadera de UTC (a pesar de que frecuentemente se le confunde con ambos), pues el tiempo que representa es UTC, pero no tiene forma de representar segundos bisiestos de UTC (por ejemplo, 1998-12-31 23:59:60).
+
+El viernes 13 de febrero de 2009, exactamente a las 23:31:30 (UTC), el tiempo Unix igualo a '1234567890'.1​ Google celebro este momento añadiendo durante unos instantes en el logotipo de su pagina principal el codigo: date +%s comando que muestra la fecha actual en formato 'Unix Time'.
+
+Algunos dispositivos con sistema operativo Android si se les retira la bateria del mismo por unos instantes de tiempo y no tienen las actualizaciones automaticas, estos se reinician al Tiempo UNIX.
+                </p>
             </article>
             <br>
          
@@ -40,37 +44,30 @@
                 </colgroup>
                 <thead class="u-palette-4-base u-table-header u-table-header-1">
                   <tr style="height: 21px;">
-                    <th class="u-border-1 u-border-palette-4-base u-table-cell">Valor<br>
+                    <th class="u-border-1 u-border-palette-4-base u-table-cell">Date<br>
                     </th>
-                    <th class="u-border-1 u-border-palette-4-base u-table-cell">De</th>
-                    <th class="u-border-1 u-border-palette-4-base u-table-cell">A</th>
+                    <th class="u-border-1 u-border-palette-4-base u-table-cell"></th>
+                    <th class="u-border-1 u-border-palette-4-base u-table-cell">Tiempi Unix</th>
                     <th class="u-border-1 u-border-palette-4-base u-table-cell">Resultado</th>
                   </tr>
                 </thead>
                 <tbody class="u-table-body">
                   <tr style="height: 93px;">
                     <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-5">
-                        <input type="number" name="change" id="pennies" min="0" step="10">
+                        <label for="start">Date:</label>
+                        <input type="datetime" id="start" name="trip-start" value="2021-11-30">
                     </td>
                     <td class="u-border-1 u-border-grey-30 u-table-cell">
-                        <select name="from_lenght">
-                            <option>metros</option>                            
-                            <option>kilometros</option>                            
-                            <option>centimetros</option>
-                            </select>   
+                       
                     </td>
                     <td class="u-border-1 u-border-grey-30 u-table-cell">
-                        <select name="from_lenght">
-                            <option>metros</option>                            
-                            <option>kilometros</option>                            
-                            <option>centimetros</option>
-                        </select>  
+                        R:
                     </td>
-                    <td class="u-border-1 u-border-grey-30 u-table-cell"><p>R: <output id="potencia" for="base exponente"></output></p></td>
+                    <td class="u-border-1 u-border-grey-30 u-table-cell"><p> <output id="potencia" for="base exponente"></output></p></td>
                   </tr>
                   <tr>
                       <td>
-                        <p><input type="button" value="Calcular" onclick="mostrarPotencia()"></p>
+                        <p> <input type="button" value="Calcular" onclick="requestapi()"></p>
                       </td>
                   </tr>
                 </tbody>
