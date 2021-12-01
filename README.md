@@ -18,3 +18,4 @@ Algunos de los aciertos en este repositorio son:
 * Se ha conectado exitosamente la base de datos de MySql de heroku y se ha creado de manera exitosa la tabla log de cfmigrations
 * Se ha trabajado de manera basica y satisfactoria la parte front de la aplicación.
 * La utilización de git para el control de versiones, ha sido evidentemente de mucha ayuda.
+* La API Rest que se intentó utilizar es la contenida en el repositorio compartido por Balbino de GitHub - public-apis/public-apis: A collective list of free APIs.- Más especifico https://unixtime.co.za/
