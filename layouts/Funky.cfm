@@ -55,7 +55,7 @@ Algunos dispositivos con sistema operativo Android si se les retira la bateria d
                   <tr style="height: 93px;">
                     <td class="u-border-1 u-border-grey-30 u-first-column u-grey-5 u-table-cell u-table-cell-5">
                         <label for="start">Date:</label>
-                        <input type="datetime" id="start" name="trip-start" value="2021-11-30">
+                        <input type="datetime-local" id="start" name="trip-start" value="2021-11-30">
                     </td>
                     <td class="u-border-1 u-border-grey-30 u-table-cell">
                        
@@ -63,7 +63,7 @@ Algunos dispositivos con sistema operativo Android si se les retira la bateria d
                     <td class="u-border-1 u-border-grey-30 u-table-cell">
                         R:
                     </td>
-                    <td class="u-border-1 u-border-grey-30 u-table-cell"><p> <output id="potencia" for="base exponente"></output></p></td>
+                    <td class="u-border-1 u-border-grey-30 u-table-cell"><p> <output id="unix-time"></output></p></td>
                   </tr>
                   <tr>
                       <td>
