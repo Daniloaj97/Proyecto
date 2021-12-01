@@ -164,4 +164,13 @@ body {
 				right:-140px;
 				top:0px;
 			}
-			
+			label {
+                display: block;
+                font: 1rem 'Fira Sans', sans-serif;
+            }
+            
+            input,
+            label {
+                margin: .4rem 0;
+            }
+            
