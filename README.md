@@ -9,10 +9,10 @@ Algunos dispositivos con sistema operativo Android si se les retira la batería 
 
 ### Notas
 *** He de mencionar que el conocimiento adquirido a través de este curso ha sido de basto enrequecimiento en mi desarrollo profesional, aunque no sea mi área de estudio principal. 
-Lamento tener que presentar un proyecto incompleto, de todas maneras, me comprometo a seguir aprendiendo. 
-Finalmente, me decidí por relizar un conversor de tiempo unix, ya que, consideré que sería una aplicación muchísimo más sencilla, sin embargo, debido a la falta de tiempo y de ciertos conocimientos bases se me ha resultado un poco complicado.
-Considero que el trabajo desarrollado en este repositorio no es merecedor de un premio debido a su nula funcionalidad, sin embargo, no siento que se oportuno solo no presentar nada, y como lo mencione antes me comprometo a seguir aprendiendo y llevarlo a cabo con los resultados esperados.
-Sin más, infinitas gracias por el curso.
+*** Lamento tener que presentar un proyecto incompleto, de todas maneras, me comprometo a seguir aprendiendo. 
+*** Finalmente, me decidí por relizar un conversor de tiempo unix, ya que, consideré que sería una aplicación muchísimo más sencilla, sin embargo, debido a la falta de tiempo y de ciertos conocimientos bases se me ha resultado un poco complicado.
+*** Considero que el trabajo desarrollado en este repositorio no es merecedor de un premio debido a su nula funcionalidad, sin embargo, no siento que se oportuno solo no presentar nada, y como lo mencione antes me comprometo a seguir aprendiendo y llevarlo a cabo con los resultados esperados.
+*** Sin más, infinitas gracias por el curso.
 
 Algunos de los aciertos en este repositorio son:
 * Se ha conectado exitosamente la base de datos de MySql de heroku y se ha creado de manera exitosa la tabla log de cfmigrations
