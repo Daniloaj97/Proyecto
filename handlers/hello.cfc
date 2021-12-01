@@ -33,10 +33,6 @@ component{
 	*/
 
 	function index(event, rc, prc ) {
-		// param an incoming variable.
-		event.paramValue( "name", "nobody" );
-		// set a private variable
-		prc.when = dateFormat( now(), "full" );
 		event.setView( view="hello/index");
 		event.setLayout("Funky");
 	}
